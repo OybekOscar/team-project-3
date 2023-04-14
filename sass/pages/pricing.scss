@@ -1,1 +1,243 @@
 @use "../global";
+
+main {
+    .section1 {
+        
+        margin: auto;
+        padding: 0px 20px;
+        margin-top: 220px;
+
+        .sec1 {
+            .h1 {
+                text-align: center;
+                font-family: 'Poppins';
+                font-style: normal;
+                font-weight: 600;
+                font-size: 48px;
+                line-height: 64px;
+                color: #282938;
+            }
+
+            .pi {
+                text-align: center;
+                font-family: 'Poppins';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 16px;
+                line-height: 28px;
+                text-align: center;
+                color: #282938;
+                opacity: 0.7;
+                margin-bottom: 64px;
+            }
+
+            .flex {
+                display: flex;
+                justify-content: space-between;
+            }
+
+            .bottom {
+                background-color: #F4F6FC;
+                padding: 64px 48px;
+                border-radius: 4px;
+                width: 100%;
+                transition: .7s;
+
+                .pointer1 {
+                    display: flex;
+
+                    p {
+                        margin-left: 10px;
+                    }
+                }
+
+                .pointer2 {
+                    display: flex;
+                    p {
+                        margin-left: 10px;
+                    }
+                }
+
+                .raqam {
+                    font-family: 'Poppins';
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 38px;
+                    line-height: 56px;
+                    color: #282938;
+                    margin-right: 10px;
+                }
+
+                span {
+                    font-family: 'Poppins';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 28px;
+                    color: #2405F2;
+                }
+
+                .lan {
+                    font-family: 'Poppins';
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 24px;
+                    line-height: 36px;
+                    color: #282938;
+                }
+
+                .when {
+                    font-family: 'Poppins';
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 16px;
+                    line-height: 28px;
+                    color: #282938;
+                    opacity: 0.7;
+                    margin-bottom: 70px;
+                }
+
+                a {
+                    all: unset;
+                    cursor: pointer;
+                    padding: 16px 70px;
+                    border-radius: 41px;
+                    background-color: #282938;
+                    color: white;
+
+                    button {
+                        all: unset;
+                        margin-top: 70px;
+                    }
+                }
+
+                .but {
+                    text-align: center;
+                }
+
+                &:hover {
+                    background-color: #1c1e53e0;
+                    color: white;
+
+                    .raqam {
+                        color: white;
+                    }
+
+                    .lan {
+                        color: white;
+                    }
+
+                    .when {
+                        color: white;
+                    }
+
+                    span {
+                        color: #FCD980;
+                    }
+
+                    .but {
+                        a {
+                            background-color: #FCD980;
+                            color: black;
+                        }
+                    }
+                }
+            }
+
+            .bottom2 {
+                margin-left: 20px;
+            }
+        }
+    }
+
+    .section2 {
+        max-width: 1280px;
+        margin: auto;
+        padding: 0px 20px;
+        margin-top: 128px;
+        margin-bottom: 128px;
+        .sec2 {
+            display: flex;
+            .left {
+                h1 {
+                    font-family: 'Poppins';
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 48px;
+                    line-height: 64px;
+                    color: #282938;
+                }
+
+                p {
+                    font-family: 'Poppins';
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 18px;
+                    line-height: 32px;
+                    color: #2405F2;
+                    opacity: 0.87;
+                }
+            }
+        }
+    }
+}
+
+
+@media (max-width: 960px) {
+    main {
+        .section1 {
+            .flex {
+                flex-direction: column;
+                text-align: center;
+                width: 50%;
+                margin: auto;
+                .bottom {
+                    .pointer1 {
+                        justify-content: center;
+                    }
+                    .pointer2 {
+                        text-align: center;
+                        justify-content: center;
+                    }
+                }
+                .bottom2 {
+                    margin-left: 0px;
+                    margin-top: 30px;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 800px) {
+    main {
+        .section1 {
+            .flex {
+                width: 70%;
+                margin: auto;
+            }
+        }
+    }
+}
+
+@media (max-width: 750px) {
+    .section2 {
+        .sec2 {
+            flex-direction: column;
+            .left {
+                text-align: center;
+            }
+        }
+    }
+}
+
+@media (max-width: 800px) {
+    main {
+        .section1 {
+            .flex {
+                width: 90%;
+                margin: auto;
+            }
+        }
+    }
+}
