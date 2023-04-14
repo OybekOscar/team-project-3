@@ -1,4 +1,10 @@
+
 @use "../global";
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+* {
+  font-family: 'Poppins', sans-serif;
+}
 nav{
     box-shadow: 0px 0px 9px 1px #5b5b5b;
 }
