@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  font-family: "Roboto Condensed";
+}
+
+*, *::after, *::before {
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+input:focus {
+  outline: none;
+}
+
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0;
+}
+
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+li {
+  list-style-type: none;
+}
+li a {
+  text-decoration: none;
+}
+
+header {
+  background: #F4F6FC;
+}
+
+.header__work {
+  text-align: center;
+}
+.header__work h4 {
+  padding-top: 24px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 28px;
+  color: #282938;
+  opacity: 0.7;
+}
+.header__work p {
+  padding-top: 96px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 28px;
+  color: #282938;
+  opacity: 0.7;
+}
+.header__work h1 {
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 64px;
+  color: #282938;
+}
+.header__work div {
+  margin-top: 32px;
+  padding: 96px;
+}
+.header__work div svg {
+  margin: 0 15px;
+}
+
+.cards__img img {
+  width: 100%;
+}
+
+.ap-tab-content {
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 1fr 1fr;
+  gap: 0px;
+  height: 100%;
+}
