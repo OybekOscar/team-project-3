@@ -4,6 +4,9 @@
     overflow: hidden;
     max-width: 1280px;
     margin: 0px auto;
+    a{
+        font-family: 'Poppins', sans-serif;
+    }
     h1{
         padding: 0px 15%;
         font-family: 'Poppins', sans-serif;
@@ -18,43 +21,52 @@
     //     }
     // }
 }
-.footer{
+.footer {
     background: #1C1E53;
     color: white;
     width: 100%;
-    .fle{
+
+    .fle {
         display: flex;
         justify-content: space-between;
         gap: 30px;
         padding: 50px 0px;
-        .w1{
-            width: 40%;   
-            a{
+
+        .w1 {
+            width: 40%;
+
+            a {
                 font-size: 30px;
             }
-            p{
+
+            p {
                 padding: 8px 0px;
                 color: #dfdfe0;
             }
-            .email-bac{
+
+            .email-bac {
                 margin-top: 40px;
                 display: flex;
                 gap: 20px;
                 background: #FCD980;
                 color: black;
                 padding: 15px 22px;
-                p{
+
+                p {
                     color: black;
                 }
             }
         }
-        .w2{
+
+        .w2 {
             width: 40%;
-            p{
+
+            p {
                 padding: 10px 0px;
                 color: #dfdfe0;
             }
-            .im{
+
+            .im {
                 margin-top: 20px;
                 display: flex;
                 gap: 20px;
@@ -62,46 +74,54 @@
         }
     }
 }
-@media (max-width: 900px){
-    .footer{
-    .fle{
-        .w1{
-            width: 55%;  
+
+@media (max-width: 900px) {
+    .footer {
+        .fle {
+            .w1 {
+                width: 55%;
+            }
+
+            .w2 {
+                width: 55%;
+            }
         }
-        .w2{
-            width: 55%;
     }
 }
-}
-}
+
 @media (max-width:850px) {
-    .footer{
-    .fle{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-        .w1{
-            width: 90%;  
-            p{
-                text-align: center;
+    .footer {
+        .fle {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+
+            .w1 {
+                width: 90%;
+
+                p {
+                    text-align: center;
+                }
+
+                .email-bac {
+                    text-align: center;
+                    margin-top: 30px;
+                    display: flex;
+                    justify-content: center;
+                }
             }
-            .email-bac{
-                text-align: center;
-                margin-top: 30px;
-                display: flex;
-                justify-content: center;
-            }
-        }
-        .w2{
-            width: 90%;
-            .im{
-                display: flex;
-                gap: 20px;
-                justify-content: center;
+
+            .w2 {
+                width: 90%;
+
+                .im {
+                    display: flex;
+                    gap: 20px;
+                    justify-content: center;
+                }
             }
         }
     }
-}
 }
