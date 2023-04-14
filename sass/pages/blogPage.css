@@ -17,6 +17,15 @@ a {
   text-decoration: none;
 }
 
+.btnn a{
+  text-decoration: none;
+  color: white;
+}
+
+.btnn a:hover{
+  color: #1C1E53;
+}
+
 button {
   border: none;
   background-color: transparent;
@@ -42,6 +51,7 @@ input:focus {
   font-family: "Poppins", sans-serif;
 }
 .cont h1 {
+  margin-top: 100px;
   padding: 0px 15%;
   font-family: "Poppins", sans-serif;
   font-weight: 700;
