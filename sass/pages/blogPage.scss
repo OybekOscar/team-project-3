@@ -1,10 +1,11 @@
 @use "../global";
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
 .cont {
+    overflow: hidden;
     max-width: 1280px;
     margin: 0px auto;
     h1{
-        padding: 0px 20%;
+        padding: 0px 15%;
         font-family: 'Poppins', sans-serif;
         font-weight: 700;
     }
@@ -16,4 +17,91 @@
     //         padding: 0px 10px;
     //     }
     // }
+}
+.footer{
+    background: #1C1E53;
+    color: white;
+    width: 100%;
+    .fle{
+        display: flex;
+        justify-content: space-between;
+        gap: 30px;
+        padding: 50px 0px;
+        .w1{
+            width: 40%;   
+            a{
+                font-size: 30px;
+            }
+            p{
+                padding: 8px 0px;
+                color: #dfdfe0;
+            }
+            .email-bac{
+                margin-top: 40px;
+                display: flex;
+                gap: 20px;
+                background: #FCD980;
+                color: black;
+                padding: 15px 22px;
+                p{
+                    color: black;
+                }
+            }
+        }
+        .w2{
+            width: 40%;
+            p{
+                padding: 10px 0px;
+                color: #dfdfe0;
+            }
+            .im{
+                margin-top: 20px;
+                display: flex;
+                gap: 20px;
+            }
+        }
+    }
+}
+@media (max-width: 900px){
+    .footer{
+    .fle{
+        .w1{
+            width: 55%;  
+        }
+        .w2{
+            width: 55%;
+    }
+}
+}
+}
+@media (max-width:850px) {
+    .footer{
+    .fle{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        .w1{
+            width: 90%;  
+            p{
+                text-align: center;
+            }
+            .email-bac{
+                text-align: center;
+                margin-top: 30px;
+                display: flex;
+                justify-content: center;
+            }
+        }
+        .w2{
+            width: 90%;
+            .im{
+                display: flex;
+                gap: 20px;
+                justify-content: center;
+            }
+        }
+    }
+}
 }
