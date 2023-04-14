@@ -1,44 +1,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+@use "../global";
 * {
-  margin: 0;
-  padding: 0;
-}
-
-* {
-  font-family: "Roboto Condensed";
-}
-
-*, *::after, *::before {
-  box-sizing: border-box;
-}
-
-a {
-  text-decoration: none;
-}
-
-button {
-  border: none;
-  background-color: transparent;
-  cursor: pointer;
-}
-
-input:focus {
-  outline: none;
-}
-
-.container {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 0;
-}
-
-* {
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 
 li {
   list-style-type: none;
 }
+
 li a {
   text-decoration: none;
 }
@@ -50,6 +19,7 @@ header {
 .header__work {
   text-align: center;
 }
+
 .header__work h4 {
   padding-top: 24px;
   font-weight: 500;
@@ -58,6 +28,7 @@ header {
   color: #282938;
   opacity: 0.7;
 }
+
 .header__work p {
   padding-top: 96px;
   font-weight: 500;
@@ -66,16 +37,19 @@ header {
   color: #282938;
   opacity: 0.7;
 }
+
 .header__work h1 {
   font-weight: 600;
   font-size: 48px;
   line-height: 64px;
   color: #282938;
 }
+
 .header__work div {
   margin-top: 32px;
   padding: 96px;
 }
+
 .header__work div svg {
   margin: 0 15px;
 }
@@ -91,6 +65,7 @@ header {
   line-height: 56px;
   color: #282938;
 }
+
 .row p {
   font-weight: 400;
   font-size: 16px;
@@ -98,6 +73,7 @@ header {
   text-align: justify;
   color: #282938;
 }
+
 .row a {
   text-decoration: none;
   font-weight: 500;
@@ -105,6 +81,7 @@ header {
   line-height: 150%;
   color: #282938;
 }
+
 .row a svg {
   margin-left: 16px;
 }
@@ -118,9 +95,11 @@ header {
   justify-content: center;
   flex-wrap: wrap;
 }
+
 .up__tab li {
   margin: 16px;
 }
+
 .up__tab li a {
   font-weight: 500;
   font-size: 18px;
@@ -142,8 +121,9 @@ header {
   background: #FCD980;
   border-radius: 41px;
   padding: 16px 66px;
-  transition: 0.7s;
+  transition: .7s;
 }
+
 .butt a {
   text-decoration: none;
   font-weight: 600;
@@ -179,3 +159,4 @@ header {
     margin-bottom: 30px;
   }
 }
+/*# sourceMappingURL=work.css.map */
