@@ -1,3 +1,4 @@
+
 * {
   margin: 0;
   padding: 0;
@@ -30,3 +31,6 @@ input:focus {
   margin: 0 auto;
   padding: 0;
 }/*# sourceMappingURL=home.css.map */
+
+@use "../global";
+

@@ -1,15 +1,25 @@
-* {
-  margin: 0;
-  padding: 0;
+@use "../global";
+.item {
+  text-align: center;
+  margin-top: 128px;
+  margin-bottom: 64px;
 }
 
-* {
-  font-family: "Roboto Condensed";
+.input {
+  margin-top: 64px;
+  background-color: #F4F6FC;
+  height: 440px;
 }
 
-*, *::after, *::before {
-  box-sizing: border-box;
+.btn-1 {
+  margin-top: 24px !important;
+  width: 234px !important;
+  height: 54px !important;
+  background: #282938 !important;
+  border-radius: 41px !important;
+  padding: 15px, 51px, 15px, 51px !important;
 }
+
 
 a {
   text-decoration: none;
@@ -50,4 +60,4 @@ input:focus {
   background: #282938 !important;
   border-radius: 41px !important;
   padding: 15px, 51px, 15px, 51px !important;
-}/*# sourceMappingURL=contactUs.css.map */
+}
