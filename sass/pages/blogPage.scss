@@ -1,10 +1,11 @@
 @use "../global";
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
 .cont {
+    overflow: hidden;
     max-width: 1280px;
     margin: 0px auto;
     h1{
-        padding: 0px 20%;
+        padding: 0px 15%;
         font-family: 'Poppins', sans-serif;
         font-weight: 700;
     }
