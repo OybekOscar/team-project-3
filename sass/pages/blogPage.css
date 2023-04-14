@@ -45,7 +45,4 @@ input:focus {
 }
 .cont p {
   font-family: "Poppins", sans-serif;
-}/*# sourceMappingURL=blogPage.css.map */
-
-@use "../global";
-
+}
